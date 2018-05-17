@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+    height: 66.2rem;
+    background-size: cover;
+}
+
+.container {
+    height: 35rem;
+    position: absolute;
+    bottom: 25%;
+    left: 7%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.left-side {
+    float: left;
+    padding: 5%;
+}
+
+.right-side {
+    float: right;
+    padding: 6%;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    opacity: 0.6;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.sign-up {
+    margin-top: 33%;
+}
+
+.sign-in {
+    margin-top: 36%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
