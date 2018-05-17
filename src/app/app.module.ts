@@ -17,6 +17,7 @@ import { SignupComponent } from './auth/signup/signup.component';
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
