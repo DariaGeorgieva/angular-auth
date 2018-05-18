@@ -1,3 +1,4 @@
+import { AuthService } from './auth/auth.service';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -19,7 +20,7 @@ import { SignupComponent } from './auth/signup/signup.component';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
